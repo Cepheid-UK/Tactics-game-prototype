@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Interface/Buttons/Orders/button_attack_order.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Interface/Buttons/Orders/button_attack_order_hover.png" type="Texture" id=2]
+
+[node name="Attack" type="TextureButton"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 0.5, 0.5 )
+button_mask = 5
+texture_normal = ExtResource( 1 )
+texture_hover = ExtResource( 2 )
